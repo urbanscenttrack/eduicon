@@ -1,0 +1,22 @@
+{
+  "name": "에듀이콘 사회적협동조합",
+  "short_name": "에듀이콘",
+  "description": "모두가 함께 배우는 경제·시민 교육의 중심",
+  "start_url": "/eduicon/",
+  "display": "standalone",
+  "background_color": "#FDFDFB",
+  "theme_color": "#1F3A6E",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "icon-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
