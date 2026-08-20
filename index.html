@@ -10,7 +10,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="에듀이콘 사회적협동조합">
 <meta property="og:description" content="모두가 함께 배우는 경제·시민 교육의 중심. 대상 맞춤형 경제·금융교육과 시민교육.">
-<meta property="og:image" content="https://urbanscenttrack.github.io/eduicon/og-image.png">
+<meta property="og:image" content="og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Jua&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -233,9 +233,9 @@ footer b{color:#fff}
    섹션 48px / 카드 radius 16px, 패딩 20px /
    제목 1.3rem / 본문 .88rem
    ═════════════════════════════════════ */
-@media(max-width:640px){
+@media(max-width:720px){
   body{font-size:.92rem;line-height:1.65}
-  .wrap{padding:0 20px}
+  .wrap{padding-left:max(22px, env(safe-area-inset-left)) !important;padding-right:max(22px, env(safe-area-inset-right)) !important;width:100%}
   section.block{padding:48px 0}
   .sec-head{margin-bottom:26px}
   .sec-eyebrow{font-size:.7rem;padding:5px 12px;margin-bottom:8px}
@@ -250,13 +250,14 @@ footer b{color:#fff}
   .nav-cta{padding:8px 15px;font-size:.8rem}
 
   /* hero */
-  .hero-inner{padding:40px 0 88px;gap:30px}
+  .hero-inner{padding:36px 0 84px}
   .hero-eyebrow{font-size:.78rem;margin-bottom:8px}
-  h1{font-size:1.65rem;line-height:1.42}
-  .hero p.lead{font-size:.88rem;margin:14px 0 22px}
+  h1{font-size:1.55rem;line-height:1.45}
+  .hero p.lead{font-size:.86rem;margin:12px 0 20px}
   .hero-actions{gap:10px}
-  .hero-actions .btn{flex:1;padding:12px 14px;font-size:.86rem}
-  .hero-card{max-width:none;border-radius:16px}
+  .hero-actions .btn{flex:0 1 auto;padding:11px 20px;font-size:.84rem}
+  .hero-card{max-width:none;border-radius:16px;margin-top:14px}
+  .hero-inner{gap:34px}
   .hc-top{padding:20px;}
   .hc-top .badge{font-size:.65rem;padding:3px 10px;margin-bottom:8px}
   .hc-top h2{font-size:1.12rem}
@@ -331,9 +332,8 @@ footer b{color:#fff}
   footer .wrap{padding:24px 20px;gap:6px}
 }
 @media(max-width:380px){
-  h1{font-size:1.5rem}
-  .hero-actions{flex-direction:column}
-  .hero-actions .btn{width:100%}
+  h1{font-size:1.45rem}
+  .hero-actions .btn{padding:10px 16px;font-size:.8rem}
 }
 </style>
 </head>
