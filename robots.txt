@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://urbanscenttrack.github.io/eduicon/sitemap.xml
